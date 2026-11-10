@@ -1,0 +1,52 @@
+{
+  "sites": [
+    {
+      "key": "demo01",
+      "name": "演示站",
+      "type": 3,
+      "api": "https://xxx/api.php",
+      "jar": "https://xxx/demo.jar",
+      "ext": {
+        "group": "合集",
+        "speedTest": true,
+        "weight": 50,
+        "disable": false,
+        "remark": "测试",
+        "tag": ["1080P"],
+        "timeout": 3000
+      }
+    }
+  ],
+  "lives": [
+    {
+      "name": "央视卫视",
+      "type": 0,
+      "api": "https://xxx/live.m3u",
+      "ext": {
+        "epgEnable": true,
+        "group": "央视",
+        "disable": false
+      }
+    }
+  ],
+  "parses": [],
+  "spider": "",
+  "blk": {},
+  "ext": {
+    "name": "我的订阅",
+    "autoRefresh": true,
+    "refreshInterval": 24,
+    "sourceHealthCheck": true,
+    "checkTimeout": 4000,
+    "homeDisableBanner": false,
+    "homeDisableFollow": false,
+    "preferSpeedSort": true,
+    "skipOpDefault": true,
+    "subDefaultStyle": {
+      "size": 22,
+      "color": "#ffffff",
+      "stroke": "#000000"
+    }
+  }
+}
+
