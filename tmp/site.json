@@ -1,0 +1,16 @@
+{
+  "key": "xxx",
+  "name": "xxx",
+  "type": 3,
+  "api": "https://xxx",
+  "jar": "",
+  "ext": {
+    "group": "合集",
+    "speedTest": true,
+    "weight": 50,
+    "disable": false,
+    "remark": "",
+    "tag": ["1080P"],
+    "timeout": 3000
+  }
+}
